@@ -18,7 +18,7 @@ private:
 public:
     Pila() : topNode(nullptr), size(0) {}
 
-    ~Pila() {
+    ~Pila() { // Libera memoria cuando se destruye la pila
         while (size > 0) {
             pop();
         }
