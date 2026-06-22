@@ -63,7 +63,7 @@ int main() {
     centralTareas.insertar("Atender ticket de soporte pesado", 2);
     centralTareas.insertar("Reiniciar servidor de pruebas", 1);
     centralTareas.insertar("Corregir bug crítico en producción", 0); // Prioridad máxima
-    std::cout << "\n--- Procesando elementos por prioridad ---\n";
+    std::cout << "Procesando elementos por prioridad";
     while (!centralTareas.estaVacia()) {
         centralTareas.procesarSiguiente();
     }
